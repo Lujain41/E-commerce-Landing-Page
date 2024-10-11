@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:#c570a0;
 }
 
 .NavBar{
@@ -41,4 +46,11 @@ nav li a{
 nav li a:hover{
     color: #ff8c69;
     transition: all 0.4s ease 0s;
+}
+
+.card-continer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
