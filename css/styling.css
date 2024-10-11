@@ -1,24 +1,25 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
-    background-color:#c570a0;
+body {
+    background-color: #c570a0;
+    
 }
 
-.NavBar{
+.NavBar {
     width: 100%;
-    height: 75px;
+    height: 75px; 
     line-height: 75px;
     position: fixed;
-    padding: 0px 100px;
-    background-image: linear-gradient(#c570a0,#773276);
+    padding: 0 100px;
+    background-image: linear-gradient(#c570a0, #773276);
 }
 
-nav .logo p{
+nav .logo p {
     font-size: 30px;
     font-weight: bold;
     float: left;
@@ -26,31 +27,34 @@ nav .logo p{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     cursor: pointer;
-    
 }
 
-nav ul{
+nav ul {
     float: right;
 }
-nav li{
+
+nav li {
     display: inline-block;
     list-style: none;
 }
-nav li a{
+
+nav li a {
     font-size: 18px;
     text-transform: uppercase;
-    padding:0px 30px ;
+    padding: 0 30px;
     color: white;
-    text-decoration:none ;
+    text-decoration: none;
 }
-nav li a:hover{
+
+nav li a:hover {
     color: #ff8c69;
     transition: all 0.4s ease 0s;
 }
 
-.card-continer{
+.card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 100px;
+    padding-top: 100px; 
+    gap: 20px; /* Space between cards */
 }
