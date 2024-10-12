@@ -45,8 +45,6 @@ body {
     z-index: 1000; 
 }
 
-
-
 .sticky-header .NavBar {
     background-color: rgba(211, 163, 190, 0.9); 
 }
@@ -209,7 +207,7 @@ nav li a:hover {
     max-width: 400px;
 }
 
-.newsletter h2 {
+.newsletter h3 {
     font-size: 24px;
     color: #333;
 }
