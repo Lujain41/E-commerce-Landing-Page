@@ -286,7 +286,7 @@ nav li a:hover {
 
 .footer-social {
     display: flex;
-    align-items: left;
+    align-items: start;
     gap: 20px;
 }
 
